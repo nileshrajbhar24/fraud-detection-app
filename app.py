@@ -3,7 +3,7 @@ import pandas as pd
 import joblib
 
 # 1. Load the Trained Model
-model = joblib.load(r'C:\Users\nitis\OneDrive\Desktop\BIA_Project_2026\fraud_model.pkl')
+model = joblib.load('fraud_model.pkl')
 
 # 2. App Title and Description
 st.title("🚨 Fraud Detection System")
@@ -52,4 +52,5 @@ if st.button("Check for Fraud"):
         st.write("This transaction looks suspicious. Please verify immediately.")
     else:
         st.success(f"✅ Legitimate Transaction (Risk Probability: {probability:.2%})")
+
         st.write("This transaction appears safe.")
