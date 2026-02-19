@@ -77,7 +77,7 @@ streamlit run app.py
 
 ## Live Demo
 
-
+**App Link**: https://nileshrajbhar24-fraud-detection-app.streamlit.app/
 
 ## Project Structure
 
